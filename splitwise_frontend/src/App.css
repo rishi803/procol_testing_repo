@@ -1,0 +1,30 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  --primary-color: #0056d2;
+  --primary-hover-color: #003e99; 
+  --background-color: #f4f7fa; 
+  --form-background: #ffffff; 
+  --border-color: #b8bfc4; 
+  --error-color: #e63946;
+  --text-color: #333333;
+}
+
+/* *{
+  border: 1px solid red;
+} */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.main-container-splitwise{
+  max-width:1200px;
+  margin:auto;
+  /* background-color: red; */
+}
